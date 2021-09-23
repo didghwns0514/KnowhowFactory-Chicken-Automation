@@ -13,7 +13,7 @@ Tensorflow DQN for automating Chicken cooking process<br/>
 > 2. Tensorflow 1.15
 > 3. Windows 10
 
-**사용한 레임워크 & 라이브러리 :**
+**사용한 프레임워크 & 라이브러리 :**
 
 - Tensorflow
 - Deep Q Learning (DQN) :
