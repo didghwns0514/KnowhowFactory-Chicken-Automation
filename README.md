@@ -1,4 +1,4 @@
-# KnowhowFactory Chicken Automation
+# KnowhowFactory
 
 Tensorflow DQN for automating Chicken cooking process<br/>
 텐서플로우-DQN을 이용한 치킨 조리 자동화 프로세스<br/>
@@ -100,7 +100,7 @@ Tensorflow DQN for automating Chicken cooking process<br/>
   > Note : 세부 내용은 documnet file 확인
 
   - 너무 많은 주문이 몰려, 튀김 Status에서 병목현상이 발생하여 물리적으로 개선할 수 없는 경우를 제외, Bubble Sorting 대비 60% 의 지연 주문 감소를 확인
-  - **`DQN의 동작을 확인하였을 때, 지연주문이 확실한 경우, 그 주문을 뒤로 미루고 지연 주문으로 갈 수 있는 Order를 미리 선처리 하도록 하여, 전체 지연 주문 발생을 줄이는 형식으로 동작하는 것을 확인`**
+  - **`DQN의 동작을 확인하였을 때, 지연주문이 확실한 경우, 그 주문을 뒤로 미루고 지연 주문으로 갈 수 있는 Order를 미리 처리 하도록 하여, 전체 지연 주문 발생을 줄이는 형식으로 동작하는 것을 확인`**
 
 <br/>
 
@@ -110,7 +110,7 @@ Tensorflow DQN for automating Chicken cooking process<br/>
 
 **Simple usage :**
 
-- agent.py 에서 Training을 하면 simulator가 back 단에서 돌아가도록 되어있음
+- agent. py 에서 Training을 하면 simulator가 back 단에서 돌아가도록 되어있음
 - Simulator만 따로 돌릴시, simulator.py를 따로 사용하면 됨
 
 ---
